@@ -17,8 +17,8 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "CV (Dayeon Youm)",
-  description: "Dayeon Youm - Chemistry & Bio",
+  title: "CV",
+  description: "Personal CV website",
 }
 
 export default function RootLayout({

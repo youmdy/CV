@@ -1,164 +1,30 @@
 update: '2026-05-21'
-name: Dayeon Youm
-title: Chemistry & Bio
+name: ''
+title: ''
 github: github.com/youmdy
-email: winter4y@korea.ac.kr
-blog: 
+email: ''
+blog: ''
 show_blog: false
-orcid: upcoming
-research_interest: My research interests focus on understanding molecular interactions and chemical phenomena
-  underlying drug discovery through computational chemistry methodologies and accelerating these investigations
-  using AI. Based on this fundamental understanding, I aim to explore and design potential drug candidates
-  for pharmaceutical applications.
-Keywords : [Ab initio, Molecular Dynamics, ML Potential, Machine Learning, Screening, Catalyst, Materials Design]
+orcid: ''
+research_interest: ''
+Keywords: []
 skills:
-  Computational_Chemistry:
-  - 'Ab initio calculaton: Psi4, PySCF, GAMESS-US, Gaussian, ORCA, CP2K etc.'
-  - 'Molecular Dynamics: OpenMM, ASE'
-  - 'Modeling & Simulation: scikit-learn, pytorch, Training ML potentials'
-  Scientific_Skills:
-  - HPC server & scheduling e.g. PBS, SGE
-  - Dataset handling (HDF5, SQL)
-  - Data visualization
-  Development_Skills:
-  - Workflow automation
-  - Python packaging & deployment
-  - Git, Cloud service, API
-research_experience:
-- title: Bachelor's Thesis
-  duration: March 2025 - Present
-  lab: Lab of Ultrafast Spectroscopy, Korea University (Sejong)
-  advisor: Prof. Jae Yoon Shin
-  achievements:
-  - Investigated dynamic behavior of ionic liquids in porous filters (Polyethersulfone
-    and Anodisc)
-  - Performed molecular dynamics calculations using force fields and fine-tuned ML
-    potentials
-  - Built simulation systems and analyzed dynamic trajectories to determine diffusion
-    coefficients
-- title: CURT Research Program
-  duration: July 2025 - Present
-  lab: Laboratory of Inorganic Chemistry, Korea University (Sejong)
-  advisor: Prof. Ho-Jin Son
-  achievements:
-  - Studied reaction mechanisms of homogeneous transition metal catalysts using DFT
-    and MLP methods
-  - Computed Gibbs energy profiles through various levels of DFT
-  - Developed automated job submission scripts and established workflows for Gibbs
-    energy profile calculation
-- title: Winter Internship
-  duration: January 2025 - February 2025
-  lab: The Meta Lab, KENTECH
-  advisor: Prof. Geun Ho Gu
-  achievements:
-  - Fine-tuned universal MLP models for heterogeneous catalyst systems
-  - Reproduced surface adsorption energies using MLP and compared results with DFT
-- title: Project Semester
-  duration: July 2024 - December 2024
-  lab: Lab of Ultrafast Spectroscopy, Korea University (Sejong)
-  advisor: Prof. Jae Yoon Shin
-  achievements:
-  - Collected and preprocessed organic molecule dataset (10K samples) using the PubChem
-    API
-  - Performed large-scale ab initio calculations (50K) and built normal mode perturbed
-    molecular dataset
-  - Fine-tuned ANI Machine Learning Potentials (MLP) to improve accuracy in transition
-    state regions
-  - Conducted MLP-based molecular dynamics simulations of carbon polymerizations and
-    acetylene annulation reactions
-  - Developed Python package for MLP-based distortion interaction analysis calculations
-# - title: X-Corps Research Program
-#   duration: November 2019 - April 2020
-#   lab: Biomedical Nano-engineering Lab, Korea University (Sejong)
-#   advisor: Prof. Gyudo Lee
-#   achievements:
-#   - Developed paper-based colorimetric biosensor for ethanol concentration measurement
-#     and color quantification
-#   - Synthesized polyaniline (PANI) nanoparticles and immobilized ADH on PANI-coated
-#     paper
-#   - Proposed RGB color picker method for pH prediction and studied lighting brightness
-#     effect corrections
-projects:
-- title: Distortion Interaction Analysis
-  link: ''
-  duration: ''
-  extra: []
-  achievements:
-  - Implemented ASE interfaces for distortion interaction analysis calculations
-  - Enabled flexible computations and streamlined computational workflows
-- title: Molecule Aligner
-  link: ''
-  duration: ''
-  extra: []
-  achievements:
-  - Developed a Python package for merging, interpolating, and aligning molecular trajectories
-  - Enabled construction of smooth, multi-step reaction pathways from mixed molecular inputs
-- title: Molecular Visualizer
-  link: ''
-  duration: ''
-  extra: []
-  achievements:
-  - Developing molecular visualization tools including ASE-native viewer aseview and
-    OverlayMol
-  - Supports visualization of molecular normal modes, overlay diagrams, and animations
-    with publication-ready quality
-- title: ASE Community Code Development
-  link: ''
-  duration: ''
-  extra: []
-  achievements:
-  - Implemented ASE calculator interfaces for g-xTB, PySCF, MLatom, and XequiNet
-  - Developed optimizer wrappers for asemcd and geomeTRIC to enhance integration of
-    ASE-centered workflows
-presentations:
-- title: '-'
-  event: '-'
-  date: '-'
-- title: '-'
-  event: '-'
-  date: '-'
-publications:
-- title: Amorphous π-Conjugated Passivator Facilitates Widening Process Window
-    for Reliable Perovskite Solar Modules
-  authors: H.S. Kim†, Y.Y. Kim†, H. Na†, Y.-H. Seo, S.J. Na, S. Lee, M.
-    Kang, J. Jang, D. Kim, Y. Ju, S.-M. Yoo, J.Y. Park, B.J. Kang, G.H. Gu,
-    T.J. Shin, J. Lee*, N.J. Jeon*, E.H. Jung*
-  venue: Adv. Energy Mater.
-  year: '2026'
-  status: Accepted
-education:
-- institution: KENTECH
-  duration: March 2026 - Present
-  degree: Integrated M.S./Ph.D. Program
-  department: Department of Energy Engineering
-  advisor: Prof. Geunho Gu
-- institution: Korea University (Sejong)
-  duration: March 2019 - February 2026
-  degree: B.S. in Advanced Material Chemistry
-  gpa: 4.12 / 4.5
+  Computational_Chemistry: []
+  Scientific_Skills: []
+  Development_Skills: []
+research_experience: []
+projects: []
+presentations: []
+publications: []
+education: []
 military_service:
-  branch: Republic of Korea Army
-  rank: Sergeant · Mandatory Military Service
-  duration: April 2021 - October 2022
+  branch: ''
+  rank: ''
+  duration: ''
 additional_activity:
-  activity: Data Science Bootcamp
-  duration: February 2024 - July 2024
-  description: Completed a 6-month intensive course on data science and machine learning
-awards_honors:
-- name: Excellent Research Report Award
-  institution: S-CURT Research Program, Korea University
-  year: '2025'
-scholarships:
-- name: Chi-Woo Lee Scholarship
-  institution: Korea University
-  year: '2025'
-  amount: KRW 5,000,000
-- name: Academic Excellence Scholarship
-  institution: Korea University
-  year: '2025'
-  amount: KRW 2,350,000
-grants:
-- name: Project Semester Research Grant
-  institution: Korea University
-  year: '2024'
-  amount: KRW 1,500,000
+  activity: ''
+  duration: ''
+  description: ''
+awards_honors: []
+scholarships: []
+grants: []
