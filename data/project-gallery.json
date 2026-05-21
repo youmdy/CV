@@ -1,0 +1,167 @@
+{
+  "project_highlights": [
+    {
+      "title": "Image to Music Recommendation Service",
+      "image": "placeholder.jpg?height=300&width=300",
+      "images": [
+        "placeholder.jpg?height=300&width=300"
+      ],
+      "period": 2024.06,
+      "descriptions": [
+        "Proposed the project topic and managed scheduling, planning, and service design",
+        "Collected and preprocessed multimodal data using APIs and web crawling",
+        "Developed and deployed the prototype website using Streamlit"
+      ],
+      "details": [
+        "Built a prototype service that recommends music from image-derived context and mood signals.",
+        "Led topic proposal, project scheduling, service planning, and overall presentation structure.",
+        "Prepared API and crawling workflows for data collection, preprocessing, and Streamlit deployment."
+      ],
+      "custom_tag": "Data Service, Recommendation, Streamlit",
+      "is_team": true
+    },
+    {
+      "title": "Molecular Visualizer Preview (aseview v2)",
+      "image": "asset/styles.png?height=300&width=300",
+      "period": 2025.07,
+      "descriptions": [
+        "Added diverse visualization styles",
+        "Ongoing project"
+      ],
+      "custom_tag": "Molecular Visualizer",
+      "is_team": false
+    },
+    {
+      "title": "Molecular Visualizer (aseview v1)",
+      "image": "asset/phonon.gif?height=300&width=300",
+      "period": 2025.06,
+      "descriptions": [
+        "Phonon visualization of graphene",
+        "Phonons calculated using AIMNet2 ML potential"
+      ],
+      "custom_tag": "Phonon, Visualizer",
+      "is_team": false
+    },
+    {
+      "title": "CO₂ Reduction Pathway (1)",
+      "image": "asset/rxn1.gif?height=300&width=300",
+      "period": 2025.09,
+      "descriptions": [
+        "Acid-Assisted CO₂-to-Formate Reduction via Proton-Induced Metal-Hydride Formation",
+        "Reaction is modeled with UMA MLIP"
+      ],
+      "custom_tag": "Reaction Mechanism, Catalyst, Animation",
+      "is_team": true
+    },
+    {
+      "title": "CO₂ Reduction Pathway (2)",
+      "image": "asset/rxn2.gif?height=300&width=300",
+      "period": 2025.09,
+      "descriptions": [
+        "Acid-Assisted CO₂-to-CO Reduction via Direct CO₂ Complexation on Metal Centers",
+        "Reaction is modeled with UMA MLIP"
+      ],
+      "custom_tag": "Reaction Mechanism, Catalyst, Animation",
+      "is_team": true
+    },
+    {
+      "title": "NanoReactor",
+      "image": "asset/carbon_md.gif?height=300&width=300",
+      "period": 2024.1,
+      "descriptions": [
+        "Simulated concentration-dependent carbon polymerization using ANI ML potential",
+        "Confirmed formation of different allotropes based on concentration"
+      ],
+      "custom_tag": "Molecular Dynamics, ML Potential",
+      "is_team": true
+    },
+    {
+      "title": "MD Population Analysis",
+      "image": "asset/population_analysis.gif?height=300&width=300",
+      "period": 2025.05,
+      "descriptions": [
+        "Generated 2D scan PES for BMIM structure using force field and ML potential",
+        "Analyzed time-dependent population from molecular dynamics trajectories"
+      ],
+      "custom_tag": "ML Potential, Force Field, Molecular Dynamics",
+      "is_team": false
+    },
+    {
+      "title": "Gibbs Energy Profile",
+      "image": "asset/gibbs.jpg?height=300&width=300",
+      "period": 2025.06,
+      "descriptions": [
+        "Studied reaction mechanism of homogeneous transition metal catalyst in solution using DFT",
+        "Used UMA ML potential for preliminary optimization of transition structures"
+      ],
+      "custom_tag": "DFT, Gibbs Energy Profile",
+      "is_team": true
+    },
+    {
+      "title": "Molecular Orbital Animation",
+      "image": "asset/mo_animation.gif?height=300&width=300",
+      "period": 2025.07,
+      "descriptions": [
+        "Created custom MO viewer using cube files",
+        "Generated surfaces via marching cubes and visualized with PyVista"
+      ],
+      "custom_tag": "Molecular Orbital, PyVista",
+      "is_team": false
+    },
+    {
+      "title": "Distortion Interaction Analysis",
+      "image": "asset/asedias.png?height=300&width=300",
+      "period": 2024.11,
+      "descriptions": [
+        "Compared computational results at different levels using asedias",
+        "Analyzed Wittig and Diels-Alder reactions"
+      ],
+      "custom_tag": "Distortion Interaction Analysis, asedias",
+      "is_team": false
+    },
+    {
+      "title": "CYP3A4 QSAR",
+      "image": "asset/QSAR.png?height=300&width=300",
+      "period": 2025.07,
+      "descriptions": [
+        "Trained encoder-based neural network for drug discovery competition and visualized with UMAP",
+        "Continuous gradients effectively capture structure-activity relationships"
+      ],
+      "custom_tag": "QSAR, Encoder",
+      "is_team": false
+    },
+    {
+      "title": "RDF Analysis",
+      "image": "asset/RDF_analysis.png?height=300&width=300",
+      "period": 2025.08,
+      "descriptions": [
+        "Analyzed BMIM-BF4 RDF from RTIL molecular dynamics calculations",
+        "Confirmed consistency with previous literature results"
+      ],
+      "custom_tag": "RDF, Ionic Liquid",
+      "is_team": false
+    },
+    {
+      "title": "Butene Rotational Conversion",
+      "image": "asset/butene_rxn.gif?height=300&width=300",
+      "period": 2025.06,
+      "descriptions": [
+        "Calculated butene rotational conversion using Meta's UMA ML potential",
+        "Used Sella for transition state and IRC calculations"
+      ],
+      "custom_tag": "UMA, Transition State, IRC",
+      "is_team": false
+    },
+    {
+      "title": "Energy Decomposition Analysis",
+      "image": "asset/eda.png?height=300&width=300",
+      "period": 2023,
+      "descriptions": [
+        "Performed EDA calculation for butadiene dihedral rotation using sobEDA",
+        "Obtained contrasting results between relaxed scan and frozen scan"
+      ],
+      "custom_tag": "Energy Decomposition Analysis, sobEDA",
+      "is_team": false
+    }
+  ]
+}
