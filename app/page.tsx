@@ -144,7 +144,7 @@ export default function CVPage() {
         </main>
       )}
 
-      <div className="cv-corner-deco">Mingi KANG · CV · {new Date().getFullYear()}</div>
+      <div className="cv-corner-deco">{data.name} · CV · {new Date().getFullYear()}</div>
     </div>
   )
 }
