@@ -23,4 +23,8 @@ python3 "$YML2JSON" "$CV_YAML" "$CV_JSON"
 python3 "$YML2JSON" "$PROJECT_GALLERY_YAML" "$PROJECT_GALLERY_JSON"
 
 # Compile to PDF with typst
-"$TYPST_BIN" compile --root "$PROJECT_ROOT" "$TYPST_TEMPLATE" "$PDF_OUT"
+mkdir -p "$(dirname "$PDF_OUT")"
+if ! "$TYPST_BIN" compile --root "$PROJECT_ROOT" "$TYPST_TEMPLATE" "$PDF_OUT"; then
+  echo "Warning: PDF compilation failed. Continuing with website deployment."
+  rm -f "$PDF_OUT"
+fi
