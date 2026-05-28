@@ -1,17 +1,14 @@
 interface SkillsProps {
-  skills: {
-    Computational_Chemistry: string[]
-    Scientific_Skills: string[]
-    Development_Skills: string[]
-  }
+  skills: Record<string, string[]>
 }
 
 export function Skills({ skills }: SkillsProps) {
-  const categories = [
-    { title: "Computational Chemistry", items: skills.Computational_Chemistry },
-    { title: "Scientific Skills", items: skills.Scientific_Skills },
-    { title: "Development Skills", items: skills.Development_Skills },
-  ]
+  const categories = Object.entries(skills ?? {})
+    .map(([key, items]) => ({
+      title: key.replace(/_/g, " "),
+      items: (items ?? []).filter(Boolean),
+    }))
+    .filter((cat) => cat.items.length > 0)
 
   return (
     <>

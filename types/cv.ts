@@ -9,11 +9,7 @@ export interface CVData {
   orcid: string
   research_interest: string
   Keywords?: string[]
-  skills: {
-    Computational_Chemistry: string[]
-    Scientific_Skills: string[]
-    Development_Skills: string[]
-  }
+  skills: Record<string, string[]>
   research_experience: ResearchExperience[]
   projects: Project[]
   presentations: Presentation[]
