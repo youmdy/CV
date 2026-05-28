@@ -1,17 +1,26 @@
 update: '2026-05-21'
-name: ''
-title: ''
+name: 'Dayeon Youm'
+title: 'Chemistry & Bio'
 github: github.com/youmdy
-email: ''
+email: 'winter4y@korea.ac.kr'
 blog: ''
 show_blog: false
-orcid: ''
-research_interest: ''
-Keywords: []
+orcid: 'upcoming'
+research_interest: 'My research interests focus on understanding molecular interactions and chemical
+  phenomena underlying drug discovery through computational chemistry methodologies
+  and accelerating these investigations using AI. Based on this fundamental understanding,
+  I aim to explore and design potential drug candidates for pharmaceutical applications.'
+Keywords: [Drug Discovery, Pharmaceutical R&D, Computational Chemistry, AI-assisted Drug Discovery, Molecular Interactions, Protein–Ligand Interactions, Medicinal Chemistry]
 skills:
-  Computational_Chemistry: []
-  Scientific_Skills: []
-  Development_Skills: []
+  Chemistry: 
+  - 'Stereo-Organic Chemistry'
+  - 'Organic Chemistry'
+  - ''
+  Scientific_Skills:
+  - ''
+  Development_Skills:
+  - 'Python'
+  - 'Codex'
 research_experience: []
 projects: []
 presentations: []
